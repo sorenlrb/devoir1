@@ -43,6 +43,7 @@ namespace ProjetDeTests
         [TestMethod()]
         public void CalculerReductionMembreTest()
         {
+
             // Il est membre
             Assert.AreEqual(0, Condition.CalculerReductionMembre(true));
 
